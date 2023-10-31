@@ -1,4 +1,4 @@
-## Task Manager (Interview Stage 1)
+## Task Manager
 
 A simple task manager with laravel and graphQl. To get started follow the steps below:
 
