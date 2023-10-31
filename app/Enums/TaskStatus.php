@@ -4,7 +4,7 @@ namespace App\Enums;
 enum TaskStatus:string {
 
     case Completed = 'completed';
-    case Started = 'in progress';
-    case NotStarted = 'not stated';
+    case Started = 'in_progress';
+    case NotStarted = 'not_started';
     
 }

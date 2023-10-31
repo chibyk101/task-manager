@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\TaskStatus;
 use App\Models\TaskCategory;
 use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
@@ -20,7 +21,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description')->nullable();
             $table->date('due_date');
-            $table->string('status');
+            $table->string('status')->default(TaskStatus::NotStarted);
             $table->timestamps();
         });
     }
